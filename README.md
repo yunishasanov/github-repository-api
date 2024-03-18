@@ -74,7 +74,7 @@ You can hit below link to get swagger doc.
     - `count`: Number of repositories to fetch (default: 10).
     - `language`: Optional filter for repositories by programming language.
     - `since`: Optional filter for repositories created since a certain date.
-  Example: `http://localhost:8080/api/v1/repositories?count=10&language=Java&since=2023-01-15`
+- Example: `http://localhost:8080/api/v1/repositories?count=10&language=Java&since=2023-01-15`
 - Responses:
     - `200 OK`: Returns a list of repositories based on the provided criteria.
     - `400 Bad Request`: Returned when an invalid request is made.
